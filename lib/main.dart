@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_form/widgets/buttons.dart';
+import 'package:flutter_form/widgets/dismissible.dart';
 import 'package:flutter_form/widgets/list_grid.dart';
 import 'package:flutter_form/widgets/snackbar.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.light,),
-       home:SnackBarWidget(),
+       home:DismissiableWidget(),
     );
   }
 }
