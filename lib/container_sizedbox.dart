@@ -14,9 +14,10 @@ class Container_Sized extends StatelessWidget {
         child: Container(
           height: 200,
           width: 200,
-          decoration: BoxDecoration(color: Colors.cyan,shape: BoxShape.circle),
+          decoration: BoxDecoration(color: Colors.cyan,borderRadius: BorderRadius.circular(20)),
+          child: Center(child: Text('HEyyy' ,style: TextStyle(fontSize: 20), ),
 
-          child: Center(child: Text('HEyyy' ,style: TextStyle(fontSize: 20), )),
+          ),
           ),
       ),
     );
