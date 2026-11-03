@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_form/widgets/alert.dart';
+import 'package:flutter_form/widgets/animated_txt.dart';
+import 'package:flutter_form/widgets/bottomnav.dart';
 import 'package:flutter_form/widgets/bottomsheet.dart';
 import 'package:flutter_form/widgets/buttons.dart';
 import 'package:flutter_form/widgets/dismissible.dart';
@@ -23,7 +25,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.light,primaryColor: Colors.blueAccent),
-       home:BottomSheetWidget(),
+       home:BottomNaviWidget(),
     );
   }
 }
