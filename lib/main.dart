@@ -8,6 +8,7 @@ import 'package:flutter_form/widgets/dismissible.dart';
 import 'package:flutter_form/widgets/drawer.dart';
 import 'package:flutter_form/widgets/dropdown.dart';
 import 'package:flutter_form/widgets/image.dart';
+import 'package:flutter_form/widgets/imagepicker.dart';
 import 'package:flutter_form/widgets/list_grid.dart';
 import 'package:flutter_form/widgets/snackbar.dart';
 import 'package:flutter_form/widgets/stack.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.light,primaryColor: Colors.blueAccent),
-       home:TabBarWidget(),
+       home:ImagePickerWidget(),
     );
   }
 }
